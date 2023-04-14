@@ -28,11 +28,17 @@ const Header = () => {
           
          
         <div >
-          <ul className="hidden lg:inline-flex gap-8 uppercase text-sm font-semibold">
+        <ul className="hidden lg:inline-flex gap-8 uppercase text-sm font-semibold">
             <li className="headerLi">Home</li>
+            <Link href='localflyer-blog.vercel.app'>
             <li className="headerLi">Beauty News</li>
+            </Link>
+            <Link href='localflyer-landingpage.vercel.app'>
             <li className="headerLi">Landing Page</li>
+            </Link>
+            <Link href='localflyer-youtubeapi.vercel.app' >
             <li className="headerLi">Beauty video</li>
+            </Link>
             <li className="headerLi">Contact</li>
           </ul>
         </div>
@@ -47,7 +53,7 @@ const Header = () => {
                               <Menu.Item>
                               <DropdownLink
                                   className="dropdown-link"
-                                  href="#"
+                                  href="localflyer-blog.vercel.app"
                                 >
                                   Beauty News
                                 </DropdownLink>
@@ -56,7 +62,7 @@ const Header = () => {
                               <Menu.Item> 
                                 <DropdownLink
                                   className="dropdown-link"
-                                  href="#"
+                                  href="localflyer-landingpage.vercel.app"
                                 >
                                   Landing Page
                                 </DropdownLink>
@@ -64,7 +70,7 @@ const Header = () => {
                               <Menu.Item>
                                 <DropdownLink
                                   className="dropdown-link"
-                                  href="#"
+                                  href="localflyer-youtubeapi.vercel.app"
                                 >
                                   Beauty video
                                 </DropdownLink>
