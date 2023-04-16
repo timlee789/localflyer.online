@@ -21,7 +21,7 @@ const Header = () => {
       <div className="max-w-7xl h-full mx-auto flex justify-between items-center">      
       
               <div className=''>
-                      <Link href="/">
+                      <Link href='https://localflyer.online'>
                         <div className='mobile: text-sm text-black font-bold  laptop:text-lg text-black font-bold'>Localflyer.online</div>
                       </Link>
               </div>
@@ -29,7 +29,9 @@ const Header = () => {
          
         <div >
         <ul className="hidden lg:inline-flex gap-8 uppercase text-sm font-semibold">
+          <Link href='https://localflyer.online' >
             <li className="headerLi">Home</li>
+            </Link>
             <Link href='https://localflyer-blog.vercel.app'>
             <li className="headerLi">Beauty News</li>
             </Link>
