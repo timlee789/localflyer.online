@@ -29,16 +29,16 @@ const Header = () => {
          
         <div >
         <ul className="hidden lg:inline-flex gap-8 uppercase text-sm font-semibold">
-          <Link href='https://localflyer.online' >
+        <Link href='https://localflyer.online'>
             <li className="headerLi">Home</li>
             </Link>
-            <Link href='https://localflyer-blog.vercel.app'>
+            <Link href='https://blog.localflyer.online'>
             <li className="headerLi">Beauty News</li>
             </Link>
-            <Link href='https://localflyer-youtubeapi.vercel.app' >
+            <Link href='https://youtube.localflyer.online' >
             <li className="headerLi">Beauty video</li>
             </Link>
-            <Link href='https://localflyer-landingpage.vercel.app'>
+            <Link href='https://landingpage.localflyer.online'>
             <li className="headerLi">Landing Page</li>
             </Link>
             <li className="headerLi">Contact</li>
@@ -55,7 +55,7 @@ const Header = () => {
                               <Menu.Item>
                               <DropdownLink
                                   className="dropdown-link"
-                                  href="https://localflyer-blog.vercel.app"
+                                  href="https://blog.localflyer.online"
                                 >
                                   Beauty News
                                 </DropdownLink>
@@ -63,7 +63,7 @@ const Header = () => {
                               <Menu.Item>
                                 <DropdownLink
                                   className="dropdown-link"
-                                  href="https://localflyer-youtubeapi.vercel.app"
+                                  href="https://youtube.localflyer.online"
                                 >
                                   Beauty video
                                 </DropdownLink>
@@ -71,7 +71,7 @@ const Header = () => {
                               <Menu.Item> 
                                 <DropdownLink
                                   className="dropdown-link"
-                                  href="https://localflyer-landingpage.vercel.app"
+                                  href="'https://landingpage.localflyer.online"
                                 >
                                   Landing Page
                                 </DropdownLink>
