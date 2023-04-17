@@ -90,7 +90,7 @@ const Header = () => {
                             </Menu.Items>
                           </Menu>
        </div>
-       <div className="flex items-center gap-8 text-lg">
+       {/* <div className="flex items-center gap-8 text-lg">
         
                   {
                     session? ( <button 
@@ -110,7 +110,7 @@ const Header = () => {
                               </button>
                             )
                   }     
-        </div>
+        </div> */}
       </div>       
     </div>
   );
